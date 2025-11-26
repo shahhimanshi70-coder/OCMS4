@@ -24,7 +24,7 @@ function App() {
         <Route path="/register" element={<Register />} />
 
         {/* DEFAULT FALLBACK */}
-        <Route path="*" element={<h1 style={{ padding: 30 }}>404 Page Not Found</h1>} />
+        <Route path="*" element={<h1 style={{ padding: 30 }}>404 Page Not Found</h1>} /> 
       </Routes>
     </Router>
   );
